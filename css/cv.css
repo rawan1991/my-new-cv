@@ -1,0 +1,337 @@
+* { 
+      box-sizing: border-box; 
+  } 
+  
+ 
+  .col-1 {width: 8.33%;} 
+  .col-2 {width: 16.66%;} 
+  .col-3 {width: 29%;} 
+  .col-4 {width: 35.33%;} 
+  .col-5 {width: 41.66%;} 
+  .col-6 {width: 50%;} 
+  .col-7 {width: 58.33%;} 
+  .col-8 {width: 66.66%;} 
+  .col-9 {width: 75%;} 
+  .col-10 {width: 83.33%;} 
+  .col-11 {width: 91.66%;} 
+  .col-12 {width: 100%;} 
+  
+ 
+  body{ 
+      background-color: rgb(255, 255, 255); 
+    width: 100%; 
+    height:100%px; 
+  } 
+  .style_body{ 
+      background: linear-gradient(10deg,rgb(52, 163, 185) , rgb(77, 200, 224) ); 
+       
+      border:7px solid rgb(77, 200, 224); 
+  
+ 
+      margin:1px 1px 1px 1px; 
+  
+ 
+      height:100%; 
+  } 
+  .MainContent { 
+  
+ 
+      margin:1% 1% 1% 1%; 
+      width:97%; 
+      height:100%; 
+      border:7px solid rgb(77, 200, 224); 
+      display: inline-block; 
+      border-style: double; 
+     
+      background-color:rgb(255, 255, 255); 
+  
+ 
+  } 
+  .header { 
+      margin-left: 10px; 
+      margin-right: 10px; 
+      margin-bottom: 10px; 
+      display: flex; 
+      height: 18%; 
+      border-bottom: 2px solid #62E2FB; 
+      border-bottom-style:inset; 
+       
+  } 
+  .MyName { 
+      float:Right; 
+      margin: 20px 0 20px 15%; 
+      font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+      font-size: 25px; 
+  } 
+  .MyName p { 
+      font-size: 18px; 
+      margin-left: 5%; 
+     color:rgb(81, 208, 233); 
+      
+ } 
+  
+ 
+  .SubContent{ 
+      display: flex; 
+      height:200%; 
+      margin: 50px 0 20px 0; 
+  } 
+  .section1 { 
+      margin: 0px 0px 20px 0; 
+      display: inline; 
+    
+  } 
+  .foot img { 
+      marign-top :0px; 
+  } 
+  .contactme { 
+      margin: 0px 0px 20px 0; 
+  
+ 
+  } 
+   .image{ 
+      margin-left:20px; 
+      float: left; 
+      margin-right: 0%; 
+      
+   } 
+   #myphoto { 
+      margin-left:20%; 
+      margin-top:5%; 
+   } 
+   .image .icon { 
+       margin-bottom:15px; 
+       float:left;  
+   } 
+   .Contactme_titile { 
+      margin-left:3px; 
+   } 
+   .Contactme_titile .dd { 
+      float: left; 
+      margin-bottom:15px; 
+      font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+      margin-right: 0px; 
+      margin-left:3px; 
+       
+   } 
+ .Contact_info { 
+      margin-left:2px; 
+      font-style: normal; 
+  } 
+ .Contact_info p{ 
+     margin-left:2px; 
+      margin-bottom:15px; 
+      float: left; 
+      margin-top: 0px; 
+      font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  
+ 
+  } 
+ 
+ 
+  .Contactme_titile { 
+  float: left; 
+  } 
+  .Contact_info { 
+      float: right; 
+  } 
+  .contactme{ 
+      display: flex; 
+  } 
+  
+ 
+  .mid{ 
+      margin: 0px 90px 0px 0px; 
+      display: inline-block; 
+      margin-left: 200px; 
+      
+  } 
+  .line { 
+     margin-top: 0px; 
+      margin-left:0px; 
+      display: flex; 
+     height:170px; 
+      margin-left: 20px; 
+  } 
+  .time_icon { 
+      margin-left: 20px; 
+       
+  } 
+  .section2 { 
+      display: inline; 
+      margin-top: 0px; 
+      margin-left:0px; 
+      height: 70%; 
+      
+  } 
+  
+ 
+  
+ 
+ .About_Me h1{ 
+      font-size: 25px; 
+      margin-top: 0px; 
+      font-weight: bold; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  } 
+  .About_Me p{ 
+      font-size: 17px; 
+      margin-top: 0px; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  } 
+  
+ 
+  .Education h1{ 
+      font-size: 25px; 
+      margin-top: 0px;
+      font-weight: bold; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  } 
+  .Education dl { 
+      margin-left: 25px; 
+  } 
+  .Education dl dt { 
+     font-size: 19px; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+      font-weight: 200px; 
+       
+  } 
+  .Education dl dd { 
+      font-size: 15px; 
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+      
+  
+ 
+  } 
+  .Education dl p { 
+      font-size: 12px; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+      font-weight: 150px; 
+      margin-top: 0px; 
+     
+       
+  } 
+  .Experience{ 
+      margin-top: 0px; 
+  } 
+  .Experience h1{ 
+      font-size: 25px; 
+      margin-top: 0px; 
+      font-weight: bold; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  } 
+ .Experience dl { 
+      margin-left: 25px; 
+  } 
+  .Experience dl dt { 
+      font-size: 19px; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+      font-weight: 200px; 
+       
+  } 
+  .Experience dl dd { 
+      font-size: 15px; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+     
+     
+         } 
+  .Experience dl p { 
+      font-size: 12px; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+      font-weight: 150px; 
+      margin-top: 0px; 
+     
+       
+  } 
+  .Skills{ 
+     
+      height: 90px; 
+       
+  } 
+  .Skills_all{ 
+       
+  display: flex; 
+     
+  } 
+  .Skills h1{ 
+      font-size: 25px; 
+      margin-top: 20px; 
+      font-weight: bold; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  } 
+  .titile_skills { 
+      margin-top: 0px; 
+      margin-left: 30px; 
+      float: left; 
+  
+ 
+  } 
+  .titile_skills p { 
+      margin-top: 0px; 
+      margin-bottom: 10px; 
+      margin-left: 0px; 
+     font-weight:bold; 
+      font-size: 18px; 
+    
+  } 
+   .Skills_img { 
+       float: left; 
+       margin-top: 0px; 
+      
+      
+   } 
+  .Skills_img img { 
+      float: left; 
+      margin-bottom: 10px; 
+      margin-top: 0px; 
+      margin-left: 100px; 
+ 
+ 
+      align-items: center; 
+       
+       
+  } 
+  
+ 
+  .programing_img { 
+  margin-top: 100px; 
+     margin-bottom: 100px; 
+  } 
+  .Programinglanguage { 
+       
+      height: 90px; 
+  } 
+  .Programinglanguage h1{ 
+      font-size: 25px; 
+      margin-top: 20px; 
+      font-weight: bold; 
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  } 
+  .Programing_all{ 
+      display: flex; 
+    } 
+  .titile_programing { 
+      margin-top: 0px; 
+      margin-left: 30px; 
+      float: left; 
+      
+  } 
+  .titile_programing p { 
+      margin-top: 0px; 
+      margin-bottom: 10px; 
+     margin-left: 0px; 
+      font-weight:bold; 
+      font-size: 18px; 
+       
+  } 
+  .ProgramingL_img { 
+      float: left; 
+     
+      
+  } 
+  .ProgramingL_img img { 
+      float: left; 
+      margin-bottom: 10px; 
+      margin-left: 170px; 
+      align-items: center; 
+}
